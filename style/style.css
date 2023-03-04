@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+.contenedor{
+    overflow:hidden;
+    background-color: aqua;
+}
+.titulo{
+    width: 70%;
+    
+    float:left;
+}
+.titulo2{
+    width: 30%;
+    float: left;
+    
+}
+
+input#edad{
+    width: 50%;
+    padding-bottom: 5px;
+    font-size: 40px;
+}
+input#name{
+    width: 100%;
+    padding-bottom: 5px;
+    font-size: 40px;
+}
+
+
+.infIzquirda{
+    width: 30%;
+    float: left;
+    
+}
+.InfDerecha{
+    width: 70%;
+    padding: 20px 70px;
+    float: left;
+    background-color: red;
+}
+.presentacion{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.imagen img{
+    width:100%;
+    height:auto;
+    border-radius: 100%;
+    padding: 20px 30px;
+}
+.imagen{
+    background-color: blueviolet;
+}
+.contactos label {
+    width: 40%;
+    float: left;
+}
+.contactos input {
+    width: 60%;
+}
+.contactos div,.elementos h4{
+    padding: 5px 0px;
+}
+.contactos h3{
+    text-align: center;
+    font-size: 125%;
+}
+
+.contactos{
+    padding: 20px 30px;
+}
+.elementos{
+    text-align: center;
+    font-size: 110%;
+    padding: 20px 30px;
+}
+.presentacion2,.aptitudes{
+    font-size: 150%;
+}
+.presentacion, h1{
+    font-size: 150%;
+}
