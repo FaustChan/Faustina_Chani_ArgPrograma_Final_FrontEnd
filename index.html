@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    <script src="https://kit.fontawesome.com/e0c64e2fe6.js" crossorigin="anonymous"></script>
+    
+
     <title>FinalFrontEndArgentinaPrograma</title>
 </head>
 
 <body>
-    <main class="contenedor">
-        <section class="infIzquirda">
-            <div class="imagen">
+    <main id="fond" class="contenedor">
+        <section id="datos" class="infIzquirda">
+            <div id="imagen" class="imagen">
                 <!-- imagen de https://randomuser.me/ -->
                 <img src="https://randomuser.me/api/portraits/men/14.jpg" alt="imagen">
             </div>
@@ -20,15 +23,15 @@
 
                 <h3>CONTACTO</h3>
                 <div>
-                    <label for="redes">Redes:</label>
+                    <i class="fa-brands fa-facebook"></i>
                     <input id="redes" type="url">
                 </div>
                 <div>
-                    <label for="telefono">Telefono:</label>
+                    <i class="fa-solid fa-phone"></i>
                     <input id="telefono" type="number">
                 </div>
                 <div>
-                    <label for="correo">Correo:</label>
+                    <i class="fa-solid fa-envelope"></i>
                     <input id="correo" type="email">
                 </div>
             </div>
@@ -41,7 +44,11 @@
 
                         <h4><a href="#habilidades">Habilidades</a></h5>
             </nav>
-
+            <div class="configuracion">
+                <h3>CAMBIAR COLOR</h3>
+                <button id="col"><i class="fa-solid fa-palette"></i></button>
+                <!--  -->
+            </div>
         </section>
         <section id="informacion" class="InfDerecha">
             <div class="presentacion">
@@ -57,8 +64,8 @@
             <div class="presentacion2">
                 <h3>Presentacion</h3>
                 <p>
-                    Hola soy <span>zzzzzz</span> y estoy muy emocionado/a de presentarles mi curriculum.E trabajado como
-                    programador/a con <span>zzzz</span> años en FrontEnd y e adquirido valiosas habilidades y
+                    Hola soy <span id="nombre"></span> y estoy muy emocionado/a de presentarles mi curriculum.E trabajado como
+                    programador/a <span id="tiempo"></span> años en FrontEnd y e adquirido valiosas habilidades y
                     experiecias. Me considero una persona persistente y comprometido/a en lograr cualquier objetibo que
                     tenga en mente.Siempre estoy dispuesta/o aprender cosas nuevas y trabajar junto con mi equipo de
                     trabajo para lograr grandes avances en mis proyectos
@@ -121,6 +128,7 @@
         </section>
     </main>
     <footer></footer>
+    <script src="./javascript/javascript.js"></script>
 </body>
 
 </html>
